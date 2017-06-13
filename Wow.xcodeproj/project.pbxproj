@@ -15,6 +15,7 @@
 		438A09341EF02C8B007C2801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438A09321EF02C8B007C2801 /* LaunchScreen.storyboard */; };
 		438A093F1EF02C8C007C2801 /* WowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A093E1EF02C8C007C2801 /* WowTests.swift */; };
 		438A094A1EF02C8C007C2801 /* WowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09491EF02C8C007C2801 /* WowUITests.swift */; };
+		438A09581EF03062007C2801 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09571EF03062007C2801 /* BasicTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		438A09451EF02C8C007C2801 /* WowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438A09491EF02C8C007C2801 /* WowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowUITests.swift; sourceTree = "<group>"; };
 		438A094B1EF02C8C007C2801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438A09571EF03062007C2801 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				438A09321EF02C8B007C2801 /* LaunchScreen.storyboard */,
 				438A09351EF02C8B007C2801 /* Info.plist */,
 				438A092D1EF02C8B007C2801 /* Wow.xcdatamodeld */,
+				438A09571EF03062007C2801 /* BasicTableViewCell.swift */,
 			);
 			path = Wow;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438A09581EF03062007C2801 /* BasicTableViewCell.swift in Sources */,
 				438A09291EF02C8B007C2801 /* ViewController.swift in Sources */,
 				438A09271EF02C8B007C2801 /* AppDelegate.swift in Sources */,
 				438A092F1EF02C8B007C2801 /* Wow.xcdatamodeld in Sources */,
