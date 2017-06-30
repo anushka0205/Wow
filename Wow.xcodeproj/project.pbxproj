@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D092059FE7EEF3340A7D51 /* Pods_Wow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F276DC2F84915CE87D533EBB /* Pods_Wow.framework */; };
+		431391FD1EF182B1005DBC6D /* FoodEntrySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431391FC1EF182B1005DBC6D /* FoodEntrySaver.swift */; };
+		431391FF1EF18764005DBC6D /* singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431391FE1EF18764005DBC6D /* singleton.swift */; };
+		431392031EF2DA5F005DBC6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431392021EF2DA5F005DBC6D /* GoogleService-Info.plist */; };
+		431392051EF81748005DBC6D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431392041EF81748005DBC6D /* UserView.swift */; };
+		431392071EF8235D005DBC6D /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431392061EF8235D005DBC6D /* user.swift */; };
+		4375D0E61EFAE9E800DEEAD6 /* FavsTableViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375D0E51EFAE9E800DEEAD6 /* FavsTableViewC.swift */; };
 		438A09271EF02C8B007C2801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09261EF02C8B007C2801 /* AppDelegate.swift */; };
 		438A09291EF02C8B007C2801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09281EF02C8B007C2801 /* ViewController.swift */; };
 		438A092C1EF02C8B007C2801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438A092A1EF02C8B007C2801 /* Main.storyboard */; };
@@ -16,6 +23,9 @@
 		438A093F1EF02C8C007C2801 /* WowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A093E1EF02C8C007C2801 /* WowTests.swift */; };
 		438A094A1EF02C8C007C2801 /* WowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09491EF02C8C007C2801 /* WowUITests.swift */; };
 		438A09581EF03062007C2801 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09571EF03062007C2801 /* BasicTableViewCell.swift */; };
+		438A095A1EF05744007C2801 /* AddFoodViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A09591EF05744007C2801 /* AddFoodViewC.swift */; };
+		BFC3212404EB8E97784300D0 /* Pods_WowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA7F2DAC7CB7B2439CA17DA /* Pods_WowUITests.framework */; };
+		E25569086F69436D0BD28BAF /* Pods_WowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061E56E07EAC593768DA818D /* Pods_WowTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061E56E07EAC593768DA818D /* Pods_WowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		078DDBC1CD0AD16D2A5C1409 /* Pods-Wow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wow/Pods-Wow.release.xcconfig"; sourceTree = "<group>"; };
+		431391FC1EF182B1005DBC6D /* FoodEntrySaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodEntrySaver.swift; sourceTree = "<group>"; };
+		431391FE1EF18764005DBC6D /* singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleton.swift; sourceTree = "<group>"; };
+		431392021EF2DA5F005DBC6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		431392041EF81748005DBC6D /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		431392061EF8235D005DBC6D /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		4375D0E51EFAE9E800DEEAD6 /* FavsTableViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavsTableViewC.swift; sourceTree = "<group>"; };
 		438A09231EF02C8B007C2801 /* Wow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438A09261EF02C8B007C2801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		438A09281EF02C8B007C2801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +69,14 @@
 		438A09491EF02C8C007C2801 /* WowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowUITests.swift; sourceTree = "<group>"; };
 		438A094B1EF02C8C007C2801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		438A09571EF03062007C2801 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		438A09591EF05744007C2801 /* AddFoodViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodViewC.swift; sourceTree = "<group>"; };
+		804ED849D1DD05F440CC97DD /* Pods-WowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowTests/Pods-WowTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EA7F2DAC7CB7B2439CA17DA /* Pods_WowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2368FD54E652EF81CF8885F /* Pods-WowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowTests/Pods-WowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D256BB2486D59F5849385071 /* Pods-Wow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wow/Pods-Wow.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE94CDDBDF5BD6C85C5FC5D /* Pods-WowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowUITests/Pods-WowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F00D41BD0880A9A84BF150DC /* Pods-WowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowUITests/Pods-WowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F276DC2F84915CE87D533EBB /* Pods_Wow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D092059FE7EEF3340A7D51 /* Pods_Wow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25569086F69436D0BD28BAF /* Pods_WowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC3212404EB8E97784300D0 /* Pods_WowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10AF6067181931231DE47F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D256BB2486D59F5849385071 /* Pods-Wow.debug.xcconfig */,
+				078DDBC1CD0AD16D2A5C1409 /* Pods-Wow.release.xcconfig */,
+				C2368FD54E652EF81CF8885F /* Pods-WowTests.debug.xcconfig */,
+				804ED849D1DD05F440CC97DD /* Pods-WowTests.release.xcconfig */,
+				DEE94CDDBDF5BD6C85C5FC5D /* Pods-WowUITests.debug.xcconfig */,
+				F00D41BD0880A9A84BF150DC /* Pods-WowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		438A091A1EF02C8B007C2801 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				438A093D1EF02C8C007C2801 /* WowTests */,
 				438A09481EF02C8C007C2801 /* WowUITests */,
 				438A09241EF02C8B007C2801 /* Products */,
+				10AF6067181931231DE47F32 /* Pods */,
+				560246545F1C872577F0BF83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +153,13 @@
 				438A09351EF02C8B007C2801 /* Info.plist */,
 				438A092D1EF02C8B007C2801 /* Wow.xcdatamodeld */,
 				438A09571EF03062007C2801 /* BasicTableViewCell.swift */,
+				438A09591EF05744007C2801 /* AddFoodViewC.swift */,
+				431391FC1EF182B1005DBC6D /* FoodEntrySaver.swift */,
+				431391FE1EF18764005DBC6D /* singleton.swift */,
+				431392021EF2DA5F005DBC6D /* GoogleService-Info.plist */,
+				431392041EF81748005DBC6D /* UserView.swift */,
+				431392061EF8235D005DBC6D /* user.swift */,
+				4375D0E51EFAE9E800DEEAD6 /* FavsTableViewC.swift */,
 			);
 			path = Wow;
 			sourceTree = "<group>";
@@ -131,6 +182,16 @@
 			path = WowUITests;
 			sourceTree = "<group>";
 		};
+		560246545F1C872577F0BF83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F276DC2F84915CE87D533EBB /* Pods_Wow.framework */,
+				061E56E07EAC593768DA818D /* Pods_WowTests.framework */,
+				9EA7F2DAC7CB7B2439CA17DA /* Pods_WowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438A094E1EF02C8C007C2801 /* Build configuration list for PBXNativeTarget "Wow" */;
 			buildPhases = (
+				0208D4363AD2E39A7F5BC3BC /* [CP] Check Pods Manifest.lock */,
 				438A091F1EF02C8B007C2801 /* Sources */,
 				438A09201EF02C8B007C2801 /* Frameworks */,
 				438A09211EF02C8B007C2801 /* Resources */,
+				DF7056C9BC70BCFE56CE110C /* [CP] Embed Pods Frameworks */,
+				C40B2A51D76ABAC5D44EDB28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438A09511EF02C8C007C2801 /* Build configuration list for PBXNativeTarget "WowTests" */;
 			buildPhases = (
+				3D964E6468AFA4455FD9C84E /* [CP] Check Pods Manifest.lock */,
 				438A09361EF02C8B007C2801 /* Sources */,
 				438A09371EF02C8B007C2801 /* Frameworks */,
 				438A09381EF02C8B007C2801 /* Resources */,
+				8BB805F1A06FFD0D653A17DC /* [CP] Embed Pods Frameworks */,
+				2158479B1BBB8CD0FAFE70AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438A09541EF02C8C007C2801 /* Build configuration list for PBXNativeTarget "WowUITests" */;
 			buildPhases = (
+				86C525DA30509C063C1CDD9D /* [CP] Check Pods Manifest.lock */,
 				438A09411EF02C8C007C2801 /* Sources */,
 				438A09421EF02C8C007C2801 /* Frameworks */,
 				438A09431EF02C8C007C2801 /* Resources */,
+				C3F941C36DF9F4B12D727A67 /* [CP] Embed Pods Frameworks */,
+				392F0C466D8B271F1EACEA11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +310,7 @@
 			files = (
 				438A09341EF02C8B007C2801 /* LaunchScreen.storyboard in Resources */,
 				438A09311EF02C8B007C2801 /* Assets.xcassets in Resources */,
+				431392031EF2DA5F005DBC6D /* GoogleService-Info.plist in Resources */,
 				438A092C1EF02C8B007C2801 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +331,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0208D4363AD2E39A7F5BC3BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2158479B1BBB8CD0FAFE70AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowTests/Pods-WowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		392F0C466D8B271F1EACEA11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowUITests/Pods-WowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D964E6468AFA4455FD9C84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C525DA30509C063C1CDD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB805F1A06FFD0D653A17DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowTests/Pods-WowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F941C36DF9F4B12D727A67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowUITests/Pods-WowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40B2A51D76ABAC5D44EDB28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wow/Pods-Wow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7056C9BC70BCFE56CE110C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wow/Pods-Wow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		438A091F1EF02C8B007C2801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +476,13 @@
 			files = (
 				438A09581EF03062007C2801 /* BasicTableViewCell.swift in Sources */,
 				438A09291EF02C8B007C2801 /* ViewController.swift in Sources */,
+				431391FF1EF18764005DBC6D /* singleton.swift in Sources */,
+				431392051EF81748005DBC6D /* UserView.swift in Sources */,
+				438A095A1EF05744007C2801 /* AddFoodViewC.swift in Sources */,
+				4375D0E61EFAE9E800DEEAD6 /* FavsTableViewC.swift in Sources */,
+				431392071EF8235D005DBC6D /* user.swift in Sources */,
 				438A09271EF02C8B007C2801 /* AppDelegate.swift in Sources */,
+				431391FD1EF182B1005DBC6D /* FoodEntrySaver.swift in Sources */,
 				438A092F1EF02C8B007C2801 /* Wow.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,11 +635,12 @@
 		};
 		438A094F1EF02C8C007C2801 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D256BB2486D59F5849385071 /* Pods-Wow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yayyy.Wow;
+				PRODUCT_BUNDLE_IDENTIFIER = cb.FoodFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,11 +648,12 @@
 		};
 		438A09501EF02C8C007C2801 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078DDBC1CD0AD16D2A5C1409 /* Pods-Wow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Yayyy.Wow;
+				PRODUCT_BUNDLE_IDENTIFIER = cb.FoodFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -444,6 +661,7 @@
 		};
 		438A09521EF02C8C007C2801 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2368FD54E652EF81CF8885F /* Pods-WowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +676,7 @@
 		};
 		438A09531EF02C8C007C2801 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804ED849D1DD05F440CC97DD /* Pods-WowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +691,7 @@
 		};
 		438A09551EF02C8C007C2801 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE94CDDBDF5BD6C85C5FC5D /* Pods-WowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WowUITests/Info.plist;
@@ -485,6 +705,7 @@
 		};
 		438A09561EF02C8C007C2801 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00D41BD0880A9A84BF150DC /* Pods-WowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WowUITests/Info.plist;
@@ -515,6 +736,7 @@
 				438A09501EF02C8C007C2801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438A09511EF02C8C007C2801 /* Build configuration list for PBXNativeTarget "WowTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +745,7 @@
 				438A09531EF02C8C007C2801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438A09541EF02C8C007C2801 /* Build configuration list for PBXNativeTarget "WowUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +754,7 @@
 				438A09561EF02C8C007C2801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
